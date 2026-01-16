@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Neon Auth UI</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<!-- Animated Background -->
+<div class="bg-animation">
+  <span></span>
+  <span></span>
+  <span></span>
+  <span></span>
+</div>
+<div class="container">
+
+  <!-- LOGIN -->
+  <div class="card login active">
+    <p class="welcome">Welcome back 👋</p>
+    <h2>Login</h2>
+
+    <div class="input-box">
+      <input type="text" required>
+      <label>Username</label>
+      <span></span>
+    </div>
+
+    <div class="input-box">
+      <input type="password" id="loginPass" required>
+      <label>Password</label>
+      <span></span>
+      <i class="eye" onclick="togglePassword('loginPass', this)">👁</i>
+    </div>
+
+    <p class="forgot">Forgot password?</p>
+
+    <button class="btn">Login</button>
+
+    <div class="social">
+      <p>Or continue with</p>
+      <div class="icons">
+        <div class="icon google">G</div>
+        <div class="icon facebook">f</div>
+        <div class="icon linkedin">in</div>
+      </div>
+    </div>
+
+    <p class="switch-text">
+      Don't have an account?
+      <span onclick="showSignup()">Sign Up</span>
+    </p>
+  </div>
+
+  <!-- SIGNUP -->
+  <div class="card signup">
+    <h2>Create Account</h2>
+
+    <div class="input-box">
+      <input type="text" required>
+      <label>Username</label>
+      <span></span>
+    </div>
+
+    <div class="input-box">
+      <input type="email" required>
+      <label>Email</label>
+      <span></span>
+    </div>
+
+    <div class="input-box">
+      <input type="password" id="signupPass" required>
+      <label>Password</label>
+      <span></span>
+      <i class="eye" onclick="togglePassword('signupPass', this)">👁</i>
+    </div>
+
+    <div class="input-box">
+      <input type="password" id="confirmPass" required>
+      <label>Confirm Password</label>
+      <span></span>
+      <i class="eye" onclick="togglePassword('confirmPass', this)">👁</i>
+    </div>
+
+    <button class="btn">Sign Up</button>
+
+    <p class="switch-text">
+      Already have an account?
+      <span onclick="showLogin()">Login</span>
+    </p>
+  </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
