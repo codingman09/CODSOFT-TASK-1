@@ -45,26 +45,6 @@ Animated background kept subtle so it doesn’t overpower the login card
 This UI is inspired by modern SaaS dashboards and fintech applications.
 
 
-📂 Project Structure
-Copy code
-
-neon-auth-ui/
-│
-├── index.html   # Main HTML structure
-├── style.css    # All styling, animations & effects
-├── script.js    # UI interactions & logic
-└── README.md    # Project documentation
-
- How to Run the Project
-Clone the repository
-Copy code
-Bash
-git clone https://github.com/your-username/neon-auth-ui.git
-Open the folder
-Run index.html in your browser
-Or use Live Server in VS Code
-No setup required.
-
  Advantages  :
   Eye-catching UI (great for portfolios)
  Lightweight (no frameworks)
