@@ -1,5 +1,6 @@
 <img width="1295" height="818" alt="image" src="https://github.com/user-attachments/assets/6844631d-91bf-4e64-bea9-dd8d014f6606" />
-![Uploading image.png…]()
+<img width="1401" height="832" alt="image" src="https://github.com/user-attachments/assets/c511385a-30dd-4fcc-a4f6-ae7486db9570" />
+
 
 Here are the Following Image / preview of mobile app sign in sign up flow
 
